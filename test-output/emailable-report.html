@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">Selenium Assignment Suite</th></tr>
+<tr><td><a href="#t0">Selenium Assignment Test Cases</a></td><td class="num">7</td><td class="num">0</td><td class="num attn">2</td><td class="num">75,896</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Selenium Assignment Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Selenium Assignment Test Cases &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.seleniumassignment.qa.testcases.HomePageTest</td><td><a href="#m0">verifyCorrectUserName</a></td><td rowspan="1">1544256400690</td><td rowspan="1">47</td></tr><tr class="failedodd"><td rowspan="1">com.seleniumassignment.qa.testcases.LoginPageTest</td><td><a href="#m1">invalidLoginTest</a></td><td rowspan="1">1544256342873</td><td rowspan="1">727</td></tr><tr><th colspan="4">Selenium Assignment Test Cases &#8212; passed</th></tr><tr class="passedeven"><td rowspan="3">com.seleniumassignment.qa.testcases.HomePageTest</td><td><a href="#m2">verifyHomePageTitle</a></td><td rowspan="1">1544256359516</td><td rowspan="1">7</td></tr><tr class="passedeven"><td><a href="#m3">verifyPersonaltabTest</a></td><td rowspan="1">1544256367580</td><td rowspan="1">1134</td></tr><tr class="passedeven"><td><a href="#m4">verifyUserNameIsAvailable</a></td><td rowspan="1">1544256384584</td><td rowspan="1">40</td></tr><tr class="passedodd"><td rowspan="4">com.seleniumassignment.qa.testcases.LoginPageTest</td><td><a href="#m5">LogoTest</a></td><td rowspan="1">1544256335323</td><td rowspan="1">61</td></tr><tr class="passedodd"><td><a href="#m6">loginPageTtileTest</a></td><td rowspan="1">1544256391862</td><td rowspan="1">23</td></tr><tr class="passedodd"><td><a href="#m7">tabsTest</a></td><td rowspan="1">1544256350917</td><td rowspan="1">2</td></tr><tr class="passedodd"><td><a href="#m8">validLoginTest</a></td><td rowspan="1">1544256375655</td><td rowspan="1">1185</td></tr></tbody>
+</table>
+<h2>Selenium Assignment Test Cases</h2><h3 id="m0">com.seleniumassignment.qa.testcases.HomePageTest#verifyCorrectUserName</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AbstractMethodError: com.seleniumassignment.qa.utils.WebEventListener.beforeGetText(Lorg/openqa/selenium/WebElement;Lorg/openqa/selenium/WebDriver;)V
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$0(EventFiringWebDriver.java:84)
+	at com.sun.proxy.$Proxy6.beforeGetText(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.getText(EventFiringWebDriver.java:462)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy11.getText(Unknown Source)
+	at com.seleniumassignment.qa.pages.HomePage.userLabel(HomePage.java:85)
+	at com.seleniumassignment.qa.testcases.HomePageTest.verifyCorrectUserName(HomePageTest.java:44)
+... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.seleniumassignment.qa.testcases.LoginPageTest#invalidLoginTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AbstractMethodError: com.seleniumassignment.qa.utils.WebEventListener.beforeGetText(Lorg/openqa/selenium/WebElement;Lorg/openqa/selenium/WebDriver;)V
+	at org.openqa.selenium.support.events.EventFiringWebDriver.lambda$new$0(EventFiringWebDriver.java:84)
+	at com.sun.proxy.$Proxy6.beforeGetText(Unknown Source)
+	at org.openqa.selenium.support.events.EventFiringWebDriver$EventFiringWebElement.getText(EventFiringWebDriver.java:462)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy11.getText(Unknown Source)
+	at com.seleniumassignment.qa.pages.LoginPage.invalidLogin(LoginPage.java:72)
+	at com.seleniumassignment.qa.testcases.LoginPageTest.invalidLoginTest(LoginPageTest.java:48)
+... Removed 33 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.seleniumassignment.qa.testcases.HomePageTest#verifyHomePageTitle</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.seleniumassignment.qa.testcases.HomePageTest#verifyPersonaltabTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.seleniumassignment.qa.testcases.HomePageTest#verifyUserNameIsAvailable</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.seleniumassignment.qa.testcases.LoginPageTest#LogoTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">com.seleniumassignment.qa.testcases.LoginPageTest#loginPageTtileTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">com.seleniumassignment.qa.testcases.LoginPageTest#tabsTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m8">com.seleniumassignment.qa.testcases.LoginPageTest#validLoginTest</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
