@@ -1,25 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Selenium Assignment Suite]">
-  <listeners>
-    <listener class-name="com.seleniumassignment.qa.ExtentReportListener.ExtentReportListener"/>
-  </listeners>
-  <test thread-count="5" name="Selenium Assignment Test Cases(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
       <class name="com.seleniumassignment.qa.testcases.LoginPageTest">
         <methods>
           <include name="tearDown"/>
           <include name="setUp"/>
+          <include name="validLoginTest"/>
           <include name="invalidLoginTest"/>
+          <include name="loginPageTtileTest"/>
         </methods>
       </class> <!-- com.seleniumassignment.qa.testcases.LoginPageTest -->
-      <class name="com.seleniumassignment.qa.testcases.HomePageTest">
-        <methods>
-          <include name="verifyCorrectUserName"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-        </methods>
-      </class> <!-- com.seleniumassignment.qa.testcases.HomePageTest -->
     </classes>
-  </test> <!-- Selenium Assignment Test Cases(failed) -->
-</suite> <!-- Failed suite [Selenium Assignment Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
